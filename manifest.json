@@ -73,6 +73,187 @@
       ],
       "ast": [
         "aggregate/ast/00ab922d5351607dfff520f37eb49cb9854fda73/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/00ab922d5351607dfff520f37eb49cb9854fda73.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "bytemuck",
+          "ecosystem": "CARGO",
+          "version": "1.22",
+          "githubOrg": "Lokathor",
+          "githubRepo": "bytemuck",
+          "githubUrl": "https://github.com/Lokathor/bytemuck",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_core",
+          "ecosystem": "CARGO",
+          "version": "1.0.221",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "ff3aee490abff5267cac86f07e0301aa6d441760",
+          "githubTag": "v1.0.221",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "slog",
+          "ecosystem": "CARGO",
+          "version": "2",
+          "githubOrg": "slog-rs",
+          "githubRepo": "slog",
+          "githubUrl": "https://github.com/slog-rs/slog",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "arbitrary",
+          "ecosystem": "CARGO",
+          "version": "1.1.3",
+          "githubOrg": "rust-fuzz",
+          "githubRepo": "arbitrary",
+          "githubCommit": "8e7b857f4f78b06920a36212ed2f392bc523c1f6",
+          "githubTag": "v1.1.3",
+          "githubUrl": "https://github.com/rust-fuzz/arbitrary/",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zerocopy",
+          "ecosystem": "CARGO",
+          "version": "0.8",
+          "githubOrg": "google",
+          "githubRepo": "zerocopy",
+          "githubUrl": "https://github.com/google/zerocopy",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "borsh",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "near",
+          "githubRepo": "borsh-rs",
+          "githubUrl": "https://github.com/near/borsh-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "borsh-derive",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "near",
+          "githubRepo": "borsh-rs",
+          "githubUrl": "https://github.com/near/borsh-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "md-5",
+          "ecosystem": "CARGO",
+          "version": "0.10",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hashes",
+          "githubUrl": "https://github.com/RustCrypto/hashes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sha1_smol",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "mitsuhiko",
+          "githubRepo": "sha1-smol",
+          "githubUrl": "https://github.com/mitsuhiko/sha1-smol",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "atomic",
+          "ecosystem": "CARGO",
+          "version": "0.6",
+          "githubOrg": "Amanieu",
+          "githubRepo": "atomic-rs",
+          "githubUrl": "https://github.com/Amanieu/atomic-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.221",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "ff3aee490abff5267cac86f07e0301aa6d441760",
+          "githubTag": "v1.0.221",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_derive",
+          "ecosystem": "CARGO",
+          "version": "1.0.221",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "ff3aee490abff5267cac86f07e0301aa6d441760",
+          "githubTag": "v1.0.221",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_test",
+          "ecosystem": "CARGO",
+          "version": "1.0.56",
+          "githubOrg": "serde-rs",
+          "githubRepo": "test",
+          "githubCommit": "72960674f80d7e951ab5f9dd5cda3fc22441844d",
+          "githubTag": "1.0.56",
+          "githubUrl": "https://github.com/serde-rs/test",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "1.0.52",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubCommit": "2ee6ca1e0e16dfbb56aa1bca536bcf31ffb338ae",
+          "githubTag": "1.0.52",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustversion",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "dtolnay",
+          "githubRepo": "rustversion",
+          "githubUrl": "https://github.com/dtolnay/rustversion",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "getrandom",
+          "ecosystem": "CARGO",
+          "version": "0.4.3",
+          "githubOrg": "rust-random",
+          "githubRepo": "getrandom",
+          "githubCommit": "5e7cd5733536844a9856dc7259bd4696bbe5e3ae",
+          "githubTag": "v0.4.3",
+          "githubUrl": "https://github.com/rust-random/getrandom",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.4.3/src/lib.rs"
+        },
+        {
+          "packageName": "digest",
+          "ecosystem": "CARGO",
+          "version": "0.10.7",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "traits",
+          "githubUrl": "https://github.com/RustCrypto/traits",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.10.7/src/digest.rs"
+        }
       ]
     }
   ],
