@@ -1,0 +1,11 @@
+{
+  "org": "uuid-rs",
+  "repo": "uuid",
+  "versions": [
+    {
+      "commit": "00ab922d5351607dfff520f37eb49cb9854fda73",
+      "tag": "v1.23.0",
+      "parsed_at": "2026-11-22T02:02:47.229490+00:00"
+    }
+  ]
+}
